@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<starts>
+	<Timing>600</Timing>
+	<Debug>0</Debug>
+	<PredReserveRoute>99999</PredReserveRoute>
+	<LogPath>C:\\Program Files (x86)\\CSB-System AG\\Reservatation\</LogPath>
+	<LogClearPeriod>5</LogClearPeriod>
+	<Reservation>
+		
+		<PredReserve>
+			<PoolNr>34012</PoolNr>
+			<Description>Волгоград подпитка</Description>
+			<DaysBefore>-1</DaysBefore>
+			<DaysAfter>1</DaysAfter>
+			<HoursFrom>80000</HoursFrom>
+			<HoursTo>180000</HoursTo>
+			<MainKstPred>340140</MainKstPred>
+				<Ksts>
+					<OhlKor>340281</OhlKor>
+					<OhlSht>340286</OhlSht>
+					<ZamKor>340280</ZamKor>
+					<ZamSht>340285</ZamSht>
+				</Ksts>
+		</PredReserve>
+		<Routes>
+			<PoolNr>34001</PoolNr>
+			<Description>Волгоград маршруты</Description>
+			<DaysBefore>-1</DaysBefore>
+			<DaysAfter>1</DaysAfter>
+			<HoursFrom>180000</HoursFrom>
+			<HoursTo>235959</HoursTo>
+			<MainKstZam>340400</MainKstZam>
+			<MainKstOhl>340410</MainKstOhl>
+				<Ksts>
+					<OhlKor>340281</OhlKor>
+					<OhlSht>340286</OhlSht>
+					<ZamKor>340280</ZamKor>
+					<ZamSht>340285</ZamSht>
+				</Ksts>
+		</Routes>
+		
+	</Reservation>
+</starts>
